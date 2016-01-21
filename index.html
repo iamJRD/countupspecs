@@ -11,6 +11,26 @@
     <title>Count Up</title>
   </head>
   <body>
+    <div class="container">
 
+      <h1>Let's count!</h1>
+      <div>
+      <form id="countUp">
+        <div class="form-group">
+            <label for="countBy">Enter a number greater than 0 to count up by:</label>
+            <input id="countBy" type="number" placeholder="Ex: 2">
+        </div>
+        <div class="form-group">
+            <label for="maxNumber">Enter a number you want it to stop counting at:</label>
+            <input id="maxNumber" type="number" placeholder="Ex: 57">
+          </div>
+          <button type="submit" class="btn btn-danger">Count!</button>
+      </form>
+    </div>
+      <div id=resultsBox>
+
+        <p id="resultstext"></p>
+      </div>
+    </div>
   </body>
 </html>
